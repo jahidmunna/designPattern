@@ -45,3 +45,12 @@ if __name__ == "__main__":
     b = SingleTon(sleep_time=1)
 
     print(a is b)
+
+    """
+    2023-10-04 20:58:24,934 - DEBUG - __init__ - self.sleep_time=5
+    2023-10-04 20:58:29,940 - DEBUG - __init__ - Called init function
+    2023-10-04 20:58:29,941 - DEBUG - print_hello_world - Hello World
+    2023-10-04 20:58:29,941 - DEBUG - __init__ - Used Previous Arguments
+    2023-10-04 20:58:29,941 - DEBUG - __init__ - self.sleep_time=5
+    True
+    """
